@@ -1,0 +1,54 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+*** Start of Simulation ***
+*** Start of Simulation ***
+Testbench is requesting sending of byte 0xff by driving 'send' high at time 1091 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 1091 ns
+   Signal 'sent' went high at time 574111 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 574111 ns
+   Signal 'sent' went low to complete handshake at time 574111 ns
+   Done sending byte 0xff at time 574120 ns
+Testbench is requesting sending of byte 0x00 by driving 'send' high at time 575171 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 575171 ns
+   Signal 'sent' went high at time 1148191 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 1148191 ns
+   Signal 'sent' went low to complete handshake at time 1148191 ns
+   Done sending byte 0x00 at time 1148200 ns
+Testbench is requesting sending of byte 0x0f by driving 'send' high at time 1149251 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 1149251 ns
+   Signal 'sent' went high at time 1722271 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 1722271 ns
+   Signal 'sent' went low to complete handshake at time 1722271 ns
+   Done sending byte 0x0f at time 1722280 ns
+Testbench is requesting sending of byte 0xf0 by driving 'send' high at time 1723331 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 1723331 ns
+   Signal 'sent' went high at time 2296351 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 2296351 ns
+   Signal 'sent' went low to complete handshake at time 2296351 ns
+   Done sending byte 0xf0 at time 2296360 ns
+Testbench is requesting sending of byte 0x37 by driving 'send' high at time 2297411 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 2297411 ns
+   Signal 'sent' went high at time 2870431 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 2870431 ns
+   Signal 'sent' went low to complete handshake at time 2870431 ns
+   Done sending byte 0x37 at time 2870440 ns
+Testbench is requesting sending of byte 0x73 by driving 'send' high at time 2871491 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 2871491 ns
+   Signal 'sent' went high at time 3444511 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 3444511 ns
+   Signal 'sent' went low to complete handshake at time 3444511 ns
+   Done sending byte 0x73 at time 3444520 ns
+Testbench is requesting sending of byte 0xaa by driving 'send' high at time 3445571 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 3445571 ns
+   Signal 'sent' went high at time 4018591 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 4018591 ns
+   Signal 'sent' went low to complete handshake at time 4018591 ns
+   Done sending byte 0xaa at time 4018600 ns
+Testbench is requesting sending of byte 0x55 by driving 'send' high at time 4019651 ns
+        and is now waiting for data to be transmitted and then handshaking signals to signal completion at time 4019651 ns
+   Signal 'sent' went high at time 4592671 ns
+   Testbench is driving 'send' low and is now waiting for 'sent' to go low... at time 4592671 ns
+   Signal 'sent' went low to complete handshake at time 4592671 ns
+   Done sending byte 0x55 at time 4592680 ns
+*** Simulation done with 0 errors at time 4592680 ns ***
+$finish called at time : 4592680 ns : File "J:/ECEN 220 Labs/Lab11_UARTTransmitter/Lab11_UARTTransmitter.srcs/sim_1/imports/Lab11_UARTTransmitter/tb_tx.sv" Line 149

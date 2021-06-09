@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 19 12:39:48 2019
+# Process ID: 6976
+# Current directory: J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.runs/impl_1
+# Command line: vivado.exe -log PWM_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PWM_top.tcl -notrace
+# Log file: J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.runs/impl_1/PWM_top.vdi
+# Journal file: J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source PWM_top.tcl -notrace

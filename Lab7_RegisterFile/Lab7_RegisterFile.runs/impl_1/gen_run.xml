@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1551819804">
+  <File Type="PLACE-DCP" Name="register_top_placed.dcp"/>
+  <File Type="PA-DCP" Name="register_top.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="register_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="register_top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="register_top_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="register_top.tcl"/>
+  <File Type="OPT-HWDEF" Name="register_top.hwdef"/>
+  <File Type="RDI-RDI" Name="register_top.vdi"/>
+  <File Type="OPT-DCP" Name="register_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="register_top_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="register_top_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="register_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="register_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="register_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="register_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="register_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="register_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="register_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="register_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="register_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="register_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="register_top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="register_top_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="register_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="register_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="register_top_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="register_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="register_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="register_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="register_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="register_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="register_top_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="register_top.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="register_top_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="register_top.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="register_top_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="register_top.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="register_top_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="register_top.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="register_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="register_top_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="register_top_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="register_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="register_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="register_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="register_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="register_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="register_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="register_top_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="register_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="register_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="register_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="register_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="register_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="register_top.bit"/>
+  <File Type="BITSTR-RBT" Name="register_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="register_top.nky"/>
+  <File Type="BITSTR-BMM" Name="register_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="register_top.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="register_top.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/register4.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SevenSegment.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab6_Dataflow/Lab6_Dataflow.srcs/sources_1/new/SevenSegment.sv"/>
+        <Attr Name="ImportTime" Val="1551213357"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_file_8x4.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="register_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab7_RegisterFile/nexys4_220.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/nexys4_220.xdc"/>
+        <Attr Name="ImportTime" Val="1551819079"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

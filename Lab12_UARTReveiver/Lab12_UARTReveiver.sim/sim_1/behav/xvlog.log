@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEN 220 Labs/Lab12_UARTReveiver/Lab12_UARTReveiver.srcs/sources_1/new/rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEN 220 Labs/Lab12_UARTReveiver/Lab12_UARTReveiver.srcs/sim_1/imports/Lab12_UARTReveiver/tb_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "J:/ECEN 220 Labs/Lab12_UARTReveiver/Lab12_UARTReveiver.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

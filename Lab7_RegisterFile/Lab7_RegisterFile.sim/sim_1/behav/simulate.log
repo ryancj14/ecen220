@@ -1,0 +1,10 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+*** Starting simulation with no buttons pressed at time               190000 ***
+*** Writing values into each register at time               380000 ***
+*** Reading values from each register using raddr2 (btnr) at time               650000 ***
+*** Checking addition using btnu at time               920000 ***
+*** Checking subtraction using btnd at time              1670000 ***
+*** Checking AND using btnl at time              2420000 ***
+*** Simulation done with   0 errors at time              3170000 ***
+$finish called at time : 3170 ns : File "J:/ECEN 220 Labs/Lab7_RegisterFile/Lab7_RegisterFile.srcs/sim_1/imports/Lab7_RegisterFile/tb_registerfile.v" Line 239

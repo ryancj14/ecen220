@@ -1,0 +1,8 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.srcs/sources_1/imports/new/SevenSegmentControl.sv,1552498331,systemVerilog,,,,SevenSegmentControl,,,,,,,,
+J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.srcs/sources_1/new/PWM.sv,1553018351,systemVerilog,,,,PWM,,,,,,,,
+J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.srcs/sources_1/new/PWM_top.sv,1553019219,systemVerilog,,,,PWM_top,,,,,,,,

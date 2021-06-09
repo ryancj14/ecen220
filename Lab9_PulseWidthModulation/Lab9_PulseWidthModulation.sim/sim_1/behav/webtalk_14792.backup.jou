@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 19 12:34:38 2019
+# Process ID: 14792
+# Current directory: J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.sim/sim_1/behav/xsim.dir/PWM_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.sim/sim_1/behav/webtalk.log
+# Journal file: J:/ECEN 220 Labs/Lab9_PulseWidthModulation/Lab9_PulseWidthModulation.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source J:/ECEN -notrace

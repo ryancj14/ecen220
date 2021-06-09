@@ -1,0 +1,13 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+*** Starting simulation with no buttons pressed at time                70000 ***
+*** Starting simulation with btnc pressed at time               710000 ***
+*** Starting simulation with no buttons pressed at time                70000 ***
+*** Starting simulation with btnc pressed at time               710000 ***
+*** Starting simulation with btnl pressed at time              1350000 ***
+*** Starting simulation with btnc and btnl pressed at time              1990000 ***
+*** Starting simulation with btnr pressed at time              2630000 ***
+*** Starting simulation with btnu pressed at time              3270000 ***
+*** Starting simulation with btnd pressed at time             13510000 ***
+*** Simulation done with   0 errors at time             23770000 ***
+$finish called at time : 23770 ns : File "J:/ECEN 220 Labs/Lab6_Dataflow/Lab6_Dataflow.srcs/sim_1/imports/Lab6_Dataflow/tb_dataflow.v" Line 306

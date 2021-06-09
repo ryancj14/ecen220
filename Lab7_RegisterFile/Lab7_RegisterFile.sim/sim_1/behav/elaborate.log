@@ -1,0 +1,20 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 74964d51c92b482d87674935e630f09b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_registerfile_behav xil_defaultlib.tb_registerfile xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 11 for port sw [J:/ECEN 220 Labs/Lab7_RegisterFile/Lab7_RegisterFile.srcs/sim_1/imports/Lab7_RegisterFile/tb_registerfile.v:58]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 7 for port segment [J:/ECEN 220 Labs/Lab7_RegisterFile/Lab7_RegisterFile.srcs/sources_1/new/register_top.sv:44]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.register4
+Compiling module xil_defaultlib.register_file_8x4
+Compiling module xil_defaultlib.SevenSegment
+Compiling module xil_defaultlib.register_top
+Compiling module xil_defaultlib.tb_registerfile
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_registerfile_behav

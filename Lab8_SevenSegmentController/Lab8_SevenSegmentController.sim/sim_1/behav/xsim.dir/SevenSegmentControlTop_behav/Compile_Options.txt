@@ -1,0 +1,1 @@
+-wto "66f0fa514e2240e587d17f0f3dcd6276" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "SevenSegmentControlTop_behav" "xil_defaultlib.SevenSegmentControlTop" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Jan 29 13:46:03 2019
+# Process ID: 10940
+# Current directory: J:/ECEN 220 Labs/Lab_3-Structural_System_Verilog/Lab_3-Structural_System_Verilog.runs/synth_1
+# Command line: vivado.exe -log FourFunctions.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FourFunctions.tcl
+# Log file: J:/ECEN 220 Labs/Lab_3-Structural_System_Verilog/Lab_3-Structural_System_Verilog.runs/synth_1/FourFunctions.vds
+# Journal file: J:/ECEN 220 Labs/Lab_3-Structural_System_Verilog/Lab_3-Structural_System_Verilog.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FourFunctions.tcl -notrace

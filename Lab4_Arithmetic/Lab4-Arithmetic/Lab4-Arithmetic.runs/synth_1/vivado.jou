@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 05 12:22:45 2019
+# Process ID: 8840
+# Current directory: J:/ECEN 220 Labs/Lab4-Arithmetic/Lab4-Arithmetic/Lab4-Arithmetic.runs/synth_1
+# Command line: vivado.exe -log Add9.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Add9.tcl
+# Log file: J:/ECEN 220 Labs/Lab4-Arithmetic/Lab4-Arithmetic/Lab4-Arithmetic.runs/synth_1/Add9.vds
+# Journal file: J:/ECEN 220 Labs/Lab4-Arithmetic/Lab4-Arithmetic/Lab4-Arithmetic.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Add9.tcl -notrace

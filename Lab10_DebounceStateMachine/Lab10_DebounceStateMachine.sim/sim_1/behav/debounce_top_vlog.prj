@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../../Lab8_SevenSegmentController/Lab8_SevenSegmentController.srcs/sources_1/new/SevenSegmentControl.sv"
+sv xil_defaultlib  "../../../Lab10_DebounceStateMachine.srcs/sources_1/new/debounce.sv"
+sv xil_defaultlib  "../../../Lab10_DebounceStateMachine.srcs/sources_1/new/debounce_top.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

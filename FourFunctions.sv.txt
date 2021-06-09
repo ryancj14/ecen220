@@ -1,0 +1,51 @@
+/***************************************************************************
+* 
+* Module: Four Functions
+*
+* Author: Ryan Johnson
+* Class: ECEN 220, Section 2, Winter 2019
+* Date: 29 January 2019
+*
+* Description: Implements four different functions
+*
+****************************************************************************/
+
+module FourFunctions (
+		input logic A, B, C,
+		output logic O1, O2, O3, O4, O5
+		);
+
+	logic a', b', c', q, r, s, t, u, v, w, x, y;
+
+	not(a', A);
+	not(b', B);
+	not(c', C);	
+
+	// O1 Function
+	and(q, A, C);
+	and(r, a', B);
+	or(O1, q, r);
+
+	// O2 Function
+	or(s, A, c');
+	and(t, B, C);
+	and(O2, s, t);
+	
+	// O3 Function
+	and(u, A, b');
+	or(O3, u, C);
+
+	// O4 Function
+	and(v, A, B);
+	and(w, b', c');
+	or(O4, v, w);
+
+	// O5 Function
+	nor(x, a', C);
+	nand(y, x, B);
+	xor(O5, y, c');
+	
+endmodule
+	
+	
+	

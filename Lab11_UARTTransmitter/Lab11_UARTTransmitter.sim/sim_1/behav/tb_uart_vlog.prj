@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../Lab11_UARTTransmitter.srcs/sources_1/new/tx.sv"
+sv xil_defaultlib  "../../../Lab11_UARTTransmitter.srcs/sim_1/imports/Lab11_UARTTransmitter/tb_tx.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

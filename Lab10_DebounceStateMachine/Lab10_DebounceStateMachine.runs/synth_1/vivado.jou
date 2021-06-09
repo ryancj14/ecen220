@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 26 19:40:36 2019
+# Process ID: 12232
+# Current directory: J:/ECEN 220 Labs/Lab10_DebounceStateMachine/Lab10_DebounceStateMachine.runs/synth_1
+# Command line: vivado.exe -log debounce_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source debounce_top.tcl
+# Log file: J:/ECEN 220 Labs/Lab10_DebounceStateMachine/Lab10_DebounceStateMachine.runs/synth_1/debounce_top.vds
+# Journal file: J:/ECEN 220 Labs/Lab10_DebounceStateMachine/Lab10_DebounceStateMachine.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source debounce_top.tcl -notrace

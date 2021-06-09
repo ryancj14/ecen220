@@ -1,0 +1,48 @@
+Unable to capture context for thread 6120 in process 10288, can not generate back trace
+Unable to capture context for thread 6808 in process 10288, can not generate back trace
+Unable to capture context for thread 11580 in process 10288, can not generate back trace
+Unable to capture context for thread 1836 in process 10288, can not generate back trace
+Exception at PC 0x00007FFE243A9149
+Unable to capture context for thread 9096 in process 10288, can not generate back trace
+Unable to capture context for thread 6380 in process 10288, can not generate back trace
+Exception at PC 0x00007FFE243A9149
+Unable to capture context for thread 9096 in process 10288, can not generate back trace
+Unable to capture context for thread 5848 in process 10288, can not generate back trace
+Exception at PC 0x00007FFDBCC3BB93
+Printing stacktrace...
+
+Unable to capture context for thread 5848 in process 10288, can not generate back trace
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+[0]  [0x00007FFDBCC3BB93]
+[1]  [0x00007FFDBCC3BB93]
+[2]  [0x00007FFDBCC3B4A1]
+[3]  [0x00007FFDBCC3B3EF]
+[4]  [0x00007FFDBCC219FE]
+[5]  [0x00007FFDBCC20ED1]
+[6]  [0x00007FFDBCC20D76]
+[7]  [0x00007FFDBCBC79F6]
+[8]  [0x00007FFDBCBB7AFB]
+[9]  [0x00007FFDBCCDE90A]
+[10]  [0x00007FFDBCCF9F87]
+[11]  [0x00007FFDBCCFA05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFE266B81F4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFE2744A251]
+Done
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149
+Exception at PC 0x00007FFE243A9149

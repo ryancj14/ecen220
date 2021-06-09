@@ -1,0 +1,1 @@
+-wto "baca226699d54087808324f212f07471" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "seven_segment_top_behav" "xil_defaultlib.seven_segment_top" "xil_defaultlib.glbl" -log "elaborate.log" 

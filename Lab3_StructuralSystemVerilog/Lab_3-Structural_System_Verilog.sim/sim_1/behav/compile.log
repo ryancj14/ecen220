@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "J:/ECEN 220 Labs/Lab_3-Structural_System_Verilog/Lab_3-Structural_System_Verilog.srcs/sources_1/imports/ECEN 220 Labs/FourFunctions.sv.txt" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourFunctions
+INFO: [VRFC 10-2263] Analyzing Verilog file "J:/ECEN 220 Labs/Lab_3-Structural_System_Verilog/Lab_3-Structural_System_Verilog.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,292 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 12 13:56:12 2019
+# Process ID: 9452
+# Current directory: J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.runs/synth_1
+# Command line: vivado.exe -log seven_segment_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seven_segment_top.tcl
+# Log file: J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.runs/synth_1/seven_segment_top.vds
+# Journal file: J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source seven_segment_top.tcl -notrace
+Command: synth_design -top seven_segment_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8216 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 324.219 ; gain = 112.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'seven_segment_top' [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/sources_1/new/seven_segment_top.sv:14]
+INFO: [Synth 8-638] synthesizing module 'seven_segment' [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/sources_1/new/seven_segment.sv:15]
+INFO: [Synth 8-638] synthesizing module 'LUT4' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+	Parameter INIT bound to: 16'b1101000000000100 
+INFO: [Synth 8-256] done synthesizing module 'LUT4' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized0' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+	Parameter INIT bound to: 16'b1000010010010010 
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized0' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized1' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+	Parameter INIT bound to: 16'b0000001010111010 
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized1' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized2' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+	Parameter INIT bound to: 16'b0010000010001110 
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized2' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized3' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+	Parameter INIT bound to: 16'b0001000010000011 
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized3' (1#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment' (2#1) [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/sources_1/new/seven_segment.sv:15]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_top' (3#1) [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/sources_1/new/seven_segment_top.sv:14]
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[7] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[6] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[5] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[4] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 361.566 ; gain = 149.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 361.566 ; gain = 149.430
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/constrs_1/new/nexys4_220.xdc]
+Finished Parsing XDC File [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/constrs_1/new/nexys4_220.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.srcs/constrs_1/new/nexys4_220.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seven_segment_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/seven_segment_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 653.566 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module seven_segment 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[7] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[6] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[5] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[4] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design seven_segment_top has port anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:40 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     4|
+|3     |LUT3 |     1|
+|4     |LUT4 |     5|
+|5     |LUT5 |     2|
+|6     |IBUF |     7|
+|7     |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |    36|
+|2     |  p1     |seven_segment |    10|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:50 . Memory (MB): peak = 653.566 ; gain = 441.430
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 653.566 ; gain = 112.395
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:51 . Memory (MB): peak = 653.566 ; gain = 441.430
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 653.566 ; gain = 413.254
+INFO: [Common 17-1381] The checkpoint 'J:/ECEN 220 Labs/Lab5_SevenSegmentDecoder/Lab5_SevenSegmentDecoder.runs/synth_1/seven_segment_top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 653.566 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 12 13:57:10 2019...
